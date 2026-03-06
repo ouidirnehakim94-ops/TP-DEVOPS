@@ -1,0 +1,10 @@
+name: Test du Runner
+
+on:
+  push:
+    branches: [main]
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Connexion runner reussie"
